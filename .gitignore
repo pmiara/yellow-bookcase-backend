@@ -1,3 +1,9 @@
 package-lock.json
 node_modules
 .tmp/
+.cache/
+public/uploads/
+.strapi-updater.json
+build/
+.env
+.idea/
