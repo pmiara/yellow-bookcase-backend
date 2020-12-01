@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_dashboard_bookshelf_orders",
+  "info": {
+    "name": "BookshelfOrder",
+    "icon": "list-ol"
+  },
+  "options": {},
+  "attributes": {
+    "bookshelf": {
+      "model": "bookshelf"
+    }
+  }
+}

@@ -11,8 +11,10 @@
     "draftAndPublish": false
   },
   "attributes": {
-    "bookshelves": {
-      "collection": "bookshelf"
+    "BookshelvesOrdering": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dashboard.bookshelf-order"
     }
   }
 }
