@@ -31,6 +31,11 @@
     "author": {
       "type": "string",
       "required": true
+    },
+    "bookshelves": {
+      "via": "books",
+      "collection": "bookshelf",
+      "dominant": true
     }
   }
 }

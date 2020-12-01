@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookshelves",
+  "info": {
+    "name": "Bookshelf",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "books": {
+      "collection": "book",
+      "via": "bookshelves"
+    }
+  }
+}

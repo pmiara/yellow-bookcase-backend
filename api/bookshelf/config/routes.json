@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bookshelves",
+      "handler": "bookshelf.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bookshelves/count",
+      "handler": "bookshelf.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bookshelves/:id",
+      "handler": "bookshelf.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bookshelves",
+      "handler": "bookshelf.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bookshelves/:id",
+      "handler": "bookshelf.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bookshelves/:id",
+      "handler": "bookshelf.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
