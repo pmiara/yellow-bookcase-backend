@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_configurations",
+  "info": {
+    "name": "Konfiguracja Strony",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "bookshelves": {
+      "collection": "bookshelf"
+    }
+  }
+}
