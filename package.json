@@ -27,12 +27,6 @@
     "strapi-provider-upload-aws-s3": "^3.3.3",
     "strapi-utils": "3.3.3"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "6c77ad68-90c2-4745-9c10-3b4e2db762e7"
-  },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
     "npm": ">=6.0.0"
