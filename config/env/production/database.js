@@ -15,7 +15,7 @@ module.exports = () => ({
                 password: config.password,
             },
             options: {
-                ssl: false,
+                ssl: true,
             },
         },
     },
