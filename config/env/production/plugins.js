@@ -4,9 +4,9 @@ module.exports = ({ env }) => ({
     providerOptions: {
       accessKeyId: env('AWS_ACCESS_KEY_ID'),
       secretAccessKey: env('AWS_ACCESS_SECRET'),
-      region: 'eu-central-1',
+      region: env('AWS_REGION'),
       params: {
-        Bucket: 'pmiara-books',
+        Bucket: env('AWS_BUCKET'),
       },
     },
   },
