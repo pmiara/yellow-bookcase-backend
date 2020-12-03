@@ -1,8 +1,8 @@
 {
-  "name": "my-project",
+  "name": "yellow-bookcase-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "The backend service for the Żółta Biblioteczka (The Yellow Bookcase) website.",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
