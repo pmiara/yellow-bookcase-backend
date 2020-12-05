@@ -36,12 +36,14 @@ they use, and the way of storing media files. The development setup uses SQLite 
 .tmp/data.db file, and it uploads the media files to [public/uploads](public/uploads) directory. For production, we use
 PostgreSQL and store the media files in AWS S3. Their details are kept in the environmental variables described below:
 
-- ADMIN_JWT_SECRET - you can generate it
-  using `node -e "console.log(require('crypto').randomBytes(64).toString('base64'))"`
+- ADMIN_JWT_SECRET
+- JWT_SECRET
 - AWS_REGION, AWS_BUCKET - S3 bucket details
 - AWS_ACCESS_KEY_ID, AWS_ACCESS_SECRET - AWS user credentials, it must have read/write permissions for the bucket
 - DATABASE_URI - a string containing: host, port, database name, username, and password. It is later destructed using
   `pg-connection-string` package.
+
+Both secrets can be generated using `node -e "console.log(require('crypto').randomBytes(64).toString('base64'))"`
 
 In order to run the service in the production mode use `npm run start` instead of `npm run develop`.
 
