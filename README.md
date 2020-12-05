@@ -49,7 +49,9 @@ In order to run the service in the production mode use `npm run start` instead o
 
 ## Active deployment
 
-- https://yellow-bookcase-api.herokuapp.com/admin
-- http://api.zolta-biblioteczka.pl/admin (http only)
+- https://yellow-bookcase-api.herokuapp.com
+- http://api.zolta-biblioteczka.pl (http only)
+
+The admin panel is available at `/admin`.
 
 The deployment is automatically triggered by changes on the main branch.
