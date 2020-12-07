@@ -46,12 +46,3 @@ PostgreSQL and store the media files in AWS S3. Their details are kept in the en
 Both secrets can be generated using `node -e "console.log(require('crypto').randomBytes(64).toString('base64'))"`
 
 In order to run the service in the production mode use `npm run start` instead of `npm run develop`.
-
-## Active deployment
-
-- https://yellow-bookcase-api.herokuapp.com
-- http://api.zolta-biblioteczka.pl (http only)
-
-The admin panel is available at `/admin`.
-
-The deployment is automatically triggered by changes on the main branch.
