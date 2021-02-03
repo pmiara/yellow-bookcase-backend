@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/o-biblioteczce",
+      "handler": "o-biblioteczce.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/o-biblioteczce",
+      "handler": "o-biblioteczce.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/o-biblioteczce",
+      "handler": "o-biblioteczce.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

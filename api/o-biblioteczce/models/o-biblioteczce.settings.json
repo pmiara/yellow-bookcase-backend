@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "",
+  "info": {
+    "name": "O Biblioteczce",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
