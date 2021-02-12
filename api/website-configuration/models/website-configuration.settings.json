@@ -15,6 +15,9 @@
       "type": "component",
       "repeatable": true,
       "component": "dashboard.bookshelf-order"
+    },
+    "bookSuggestionFormUrl": {
+      "type": "string"
     }
   }
 }
