@@ -33,9 +33,15 @@
       "required": true
     },
     "bookshelves": {
-      "via": "books",
       "collection": "bookshelf",
+      "via": "books",
       "dominant": true
+    },
+    "addedBy": {
+      "type": "string"
+    },
+    "lubimyCzytacUrl": {
+      "type": "string"
     }
   }
 }

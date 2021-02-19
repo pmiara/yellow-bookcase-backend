@@ -17,8 +17,8 @@
       "required": true
     },
     "books": {
-      "collection": "book",
-      "via": "bookshelves"
+      "via": "bookshelves",
+      "collection": "book"
     }
   }
 }
